@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div id="main">
+    
+    <div class="page1">
+      <div id="error-message">
+        <p>City name is not exists</p>
+        <i class="ri-close-line"></i>
+      </div>
+      <div class="box">
+        <div class="one">
+          <form id="form-input">
+            <input type="text" name="" id="inpt" placeholder="Enter your City">
+            <button><i class="ri-search-line"></i></button>
+          </form>
+        </div>
+        <div class="two">
+          <img id="hello" src="/assets/sun.png" alt="">
+          <h1>34°C</h1>
+          <h2>Mumbai</h2>
+        </div>
+        <div class="three">
+          <div class="left">
+            <img src="/assets/humidity.png" alt="">
+            <div class="text">
+              <h3 id="humid">32%</h3>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="right">
+            <img src="/assets/wind.png" alt="">
+            <div class="text">
+              <h3 id="w-speed">5.66 km/h</h3>
+              <p>Wind Speed</p>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+<script src="/script.js"></script>  
+</body>
+
+</html>
